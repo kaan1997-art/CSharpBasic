@@ -19,7 +19,7 @@ namespace MethodsDemo1
             GecmeDurumuGöster(ortalama);
             Console.ReadLine();
         }
-        static double GirisAl(string sinav)
+        static double GirisAl(string sinav) 
         {
             Console.Write(sinav + ": ");
             string giris = Console.ReadLine();
